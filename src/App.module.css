@@ -1,0 +1,9 @@
+.app {
+  display: flex;
+  overflow: hidden;
+}
+@media only screen and (max-width: 1200px) {
+  .app {
+    flex-direction: column;
+  }
+}

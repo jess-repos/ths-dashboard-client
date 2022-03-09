@@ -1,0 +1,54 @@
+.head {
+  background-color: var(--bg-dark);
+  height: 100vh;
+  min-width: 28rem;
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.content h1 {
+  font-weight: 100;
+  font-size: 3rem;
+}
+.temperature {
+  width: 14rem;
+  height: 14rem;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background-color: rgba(235, 64, 52, 0.3);
+  border: 2px solid #eb4034;
+  font-weight: 500;
+}
+.temperature h2 {
+  font-size: 2.5rem;
+}
+.humidity {
+  text-align: center;
+  border-bottom: 1px solid var(--bg-dark-2);
+}
+.humidity h2 {
+  font-size: 2rem;
+}
+.humidity p {
+  font-weight: 100;
+}
+.footer {
+  padding: 0.75rem;
+  background-color: var(--bg-dark-2);
+}
+.footer p {
+  text-align: center;
+}
+@media only screen and (max-width: 900px) {
+  .head {
+    min-width: 100vw !important;
+    overflow: hidden;
+  }
+}

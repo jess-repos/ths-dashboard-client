@@ -1,0 +1,17 @@
+.card {
+  background-color: var(--bg-dark-2);
+  border-radius: 24px;
+  overflow: hidden;
+}
+.chart {
+  background-color: var(--bg-dark);
+  padding: 1rem;
+}
+.card h1 {
+  padding: 1rem;
+  border-top: 1px solid var(--bg-dark);
+}
+.chartdoughnut{
+  background-color: var(--bg-dark);
+  padding: 1rem 8rem;
+}
